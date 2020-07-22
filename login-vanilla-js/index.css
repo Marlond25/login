@@ -1,0 +1,74 @@
+:root {
+  --bg-color: #3d86d9;
+  --br-color: #e6f1ff;
+  --ft-size: 14px;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: Black;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  font-family: ubuntu;
+}
+
+button[name="send"] {
+  background-color: var(--br-color);
+  color: var(--bg-color);
+  float: right;
+  border: none;
+  border-radius: 2px;
+  font-size: var(--ft-size);
+  padding: 7px;
+  font-weight: bold;
+}
+
+input {
+  width: 80%;
+  height: 26px;
+  background-color: var(--br-color);
+  border-radius: 2px;
+  border: none;
+  font-size: var(--ft-size);
+}
+
+label {
+  width: 80%;
+  height: 26px;
+  color: var(--br-color);
+}
+
+.title {
+  margin: auto;
+  margin-top: 12%;
+  width: 18%;
+  height: 12%;
+  font-size: 69px;
+  color: var(--br-color);
+  font-weight: bold;
+}
+
+.container {
+  margin: auto;
+  width: 30%;
+  height: 26%;
+  /*border: 1.1px solid black;
+  border-radius: 7px;
+  background-color: white;
+  z-index: 100;
+  box-shadow: 0.5px 0.5px 26px -2px var(--br-color);*/
+}
+
+.username {
+  margin: 7px;
+}
+
+.password {
+  margin: 7px;
+}
+
+.send {
+  margin: 7px;
+}
